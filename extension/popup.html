@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>Manheim Türkiye</title>
+    <style>
+      body { width: 300px }
+      img { height: 70px }
+     
+	  #btnAllow {
+		width: 100%;
+		padding: 8px;
+		font-size: 16px;
+	  }
+	  #lblResult {
+		font-size: 14px;
+	  }
+      .active { 
+		color: #B71C1C;
+	  }
+      .done {
+		color: #2E7D32;
+	  }
+    </style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+	<script src="popup.js"></script>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				</br>
+				<p>Add your website to allowed pages for flash setting by chrome extension.</p>
+			</div>
+		</div>
+		<!-- /.row -->
+		<div class="row">
+			<div class="col-12">
+				<label for="lblResult" class="h6">Setting detail:</label>
+			</div>
+			<div class="col-12">
+				<label id="lblResult"></label>
+			</div>
+		</div>
+		<!-- /.row -->
+		<div class="row">
+			<div class="col-12">
+				<label for="btnAllow" class="h6">Allow the page for Flash:</label>
+			</div>
+			<div class="col-12">
+				<div class="form-group">
+					<input id="btnAllow" type="button" class="btn btn-primary btn-block" />
+				</div>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+  </body>
+</html>

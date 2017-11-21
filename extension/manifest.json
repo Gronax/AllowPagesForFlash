@@ -1,0 +1,11 @@
+{
+  "name" : "Chrome Extension",
+  "version" : "1.0",
+  "description" : "Add your website to allowed pages for flash setting by chrome extension.",
+  "permissions": [ "contentSettings" ],
+  "browser_action": {
+     "default_icon": "contentSettings.png",
+     "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
